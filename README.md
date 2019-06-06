@@ -20,9 +20,12 @@ FILEUPLOAD is an application, where a user can upload multiple file to server an
 
 ```
 use node 12.2.0 or greater
-git clone https://github.com/HimanshuP90/fileUpload my-project
-cd my-project
+git clone https://github.com/HimanshuP90/fileUpload.git 
+cd fileUpload
 npm install
+cd client
+npm install
+then back to fileupload folder and run below
 npm run dev
 
 ```
